@@ -1,0 +1,24 @@
+html,body{
+    margin:0;
+    padding:0;
+
+    background-color: #27408b;
+    color: whitesmoke;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+nav{
+    display: flex;
+    gap: 24px;
+}
+
+a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
