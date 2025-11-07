@@ -1,0 +1,59 @@
+#ex1{
+    width:200px;
+    height:100px;
+    border: 3px green solid;
+    
+
+
+}
+#ex2{
+    width:150px;
+    height:150px;
+    background-color:blue;
+}
+p{
+    color:red;
+    font-size: 20px;
+    font-family: Arial;
+}
+#ex4{
+    text-align: center;
+    color:purple;
+}
+#ex5{
+    background-color: lightgrey;
+    padding:25px;
+}
+
+#ex61{
+    width:100px;
+    height:100px;
+    background-color: orange;
+    margin-bottom:30px;
+}
+#ex62{
+    width:100px;
+    height:100px;
+    background-color: orange;
+}
+
+#ex7{
+    width:100px;
+    height:100px;
+    background-color: black;
+    border-radius: 100px;
+}
+#caixa-destaque{
+    width:500px;
+    height: 50px;
+    border: 2px dashed cyan;
+}
+
+.texto-importante{
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color:green;
+}
