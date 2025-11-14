@@ -1,0 +1,10 @@
+.grid-container{
+    display: grid;
+    gap: 10px;
+}
+.coluna{
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #b2d8b2;
+    padding: 10px;
+    
+}

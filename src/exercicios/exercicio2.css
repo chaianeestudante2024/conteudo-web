@@ -9,5 +9,10 @@ li{
 
 nav{
     padding:10px;
+    background-color: #333;
     
+}
+a{
+    color:white;
+    text-decoration: none;
 }

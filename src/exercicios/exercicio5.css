@@ -1,0 +1,18 @@
+.card{
+    width:300px;
+    box-shadow: 0 4px 8px #6d2020;
+    border: 1px solid crimson;
+    border-radius: 8px;
+}
+img{
+    width:100%;
+}
+h3{
+    padding:15px;
+}
+p{
+    padding:15px;
+}
+button{
+    padding:15px;
+}

@@ -1,0 +1,12 @@
+.galeria{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item-galeria{
+    width: 150px;
+    height: 150px;
+    background-color: #add8e6;
+    margin:10px;
+    
+}

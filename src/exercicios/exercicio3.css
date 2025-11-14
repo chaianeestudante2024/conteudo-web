@@ -1,0 +1,12 @@
+.container-pagina{
+    display:flex;
+}
+aside{
+    width:250px;
+    background-color:#09916f;
+}
+main{
+    flex-grow:1;
+    background-color:blueviolet;
+    padding:20px;
+}

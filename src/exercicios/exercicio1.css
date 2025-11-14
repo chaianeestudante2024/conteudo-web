@@ -3,11 +3,12 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    
 
 }
 .caixa-login{
     width:300px;
     height:200px;
     background-color: lightgray;
-    border: 1px;
+   
 }
