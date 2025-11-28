@@ -15,18 +15,17 @@ function processaFormulario(evento) {
 
     if (nome != '' && sobrenome != '' && dt_nascimento != '') {
         console.log("O formulário é válido")
-        if (nome.lenght >= 3 && sobrenome.lenght >= 3) {
+        if (nome.length >= 3 && sobrenome.length >= 3) {
             const usuario = {
                 p_nome: nome,
                 p_sobrenome: sobrenome,
-                p_dt_nascimento: dt_nascimento
+                p_dt_nasScimento: dt_nascimento
             }
             localStorage.setItem('usuario',JSON.stringify(usuario))
-        }
-        else {
+        }else {
             console.log("O Nome e sobrenome precisam ter no mínimo 3 caracteres")
         }
     } else {
-        console.log("O Nome e sobrenome precisam ter no mínimo 3 caracteres")
+        console.log("O formulário é inválido")
     }
 }
